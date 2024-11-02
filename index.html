@@ -19,7 +19,7 @@
 <body>
     
     <div class="wrapper">
-
+        <h1>Tic Tac Toe</h1>
         <p class="game-info"></p>
 
         <div class="tic-tac-toe">
@@ -36,6 +36,17 @@
 
         <div class="start-screen">
             <form action="/">
+
+                <div class="selecting-screen">
+                    <button id="player-vs-computer-btn" class="button-common">
+                       P vs Com
+                    </button>
+                
+                    <button id="player-vs-player-btn" class="button-common">
+                        P vs P
+                    </button>
+                </div>
+               <div class="second-start-screen">
                 <div>
                     <label id="one">Player 1 Name</label>
                     <br>
@@ -51,6 +62,7 @@
                     <span id="name-error1" class="red"></span>
                 </div>
                 <button class="start-btn">Start!</button>
+               </div>
             </form>
         </div>
 
